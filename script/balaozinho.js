@@ -12,7 +12,7 @@ imagensMarcadasEl.forEach((imgMarcadaEl) => {
         `
     });
     imgMarcadaEl.addEventListener('mousemove', (e)=>{
-        balaozinhoDivEl.style.position = 'absoule';
+        balaozinhoDivEl.style.position = 'absolute';
         balaozinhoDivEl.style.top =  `${e.pageY}px`;
         balaozinhoDivEl.style.left = `${e.pageX}px`;
     });
