@@ -7,8 +7,8 @@ imagensMarcadasEl.forEach((imgMarcadaEl) => {
     imgMarcadaEl.addEventListener('mouseover', (e)=>{
         balaozinhoDivEl.style.color = imgMarcadaEl.getAttribute('data-cor')
         balaozinhoDivEl.innerHTML = `
-            <h1>${imgMarcadaEl.getAttribute('data-titulo')}</h1>
-            <h2>${imgMarcadaEl.getAttribute('data-conteudo')}</h2>
+            <h2>${imgMarcadaEl.getAttribute('data-titulo')}</h2>
+            <p>${imgMarcadaEl.getAttribute('data-conteudo')}</p>
         `
     });
     imgMarcadaEl.addEventListener('mousemove', (e)=>{
